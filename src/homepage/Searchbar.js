@@ -1,13 +1,16 @@
+import magnify from "../imgs/magnify.png"
+
 const Searchbar = () => {
     return (
-        <form action="">
-            <select name="category" id="form-category">
+        <div className="search-form">
+            <select name="category" id="div-category">
                 <option value="All">All</option>
+                <option value="Bishoujo Figure">Bishoujo Figure</option>
             </select>
-            <input type="search" name="search_keyword" id="form-search" placeholder="Search..." />
+            <input type="search" name="search_keyword" id="form-search" placeholder="Search..." className="search-input" />
             {/* multiple search buttons will look exactly like this */}
-            <input type="submit" value="Search" class="search-button" />
-        </form>
+            <button class="search-button"><img src={magnify} alt="search" className="search-icon" /></button>
+        </div>
     );
 }
  

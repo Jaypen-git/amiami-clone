@@ -1,0 +1,71 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    background: url('../imgs/pc_header_e.png') no-repeat;
+    margin: 0 1.6rem;
+}
+
+header .upper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.upper .logo {
+    height: 2.6rem;
+    width: 13rem;
+}
+
+header .search-form {
+    /* set display to flex to make all items the same height */
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    width: 44.25rem;
+}
+
+header .search-form * {
+    font-size: 1rem;
+    padding: 0.4rem 0.6rem;
+}
+
+header .search-form select {
+    background-color: #ddd;
+    display: inline-block;
+    height: 100%;
+    width: max-content;
+}
+
+header .search-form #form-search {
+    background-color: #eee;
+    width: 60%;
+}
+
+.search-form button {
+    align-items: center;
+    background-color: #f38029;
+    display: flex;
+    padding: 0;
+}
+
+.search-form .search-icon {
+    height: 1.6rem;
+    padding: 0;
+}
+
+.header-menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-menu ul li {
+    font-size: 0.7rem;
+}
